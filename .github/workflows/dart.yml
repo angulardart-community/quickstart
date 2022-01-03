@@ -25,7 +25,7 @@ jobs:
       - uses: dart-lang/setup-dart@v1.3
 
       - name: Install dependencies
-        run: dart pub get && dart pub global activate webdev
+        run: dart pub get
 
       # Uncomment this step to verify the use of 'dart format' on each commit.
       - name: Verify formatting
