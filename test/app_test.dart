@@ -2,7 +2,7 @@
 
 import 'package:angular_app/app_component.dart';
 import 'package:angular_app/app_component.template.dart' as ng;
-import 'package:angular_test/angular_test.dart';
+import 'package:ngtest/ngtest.dart';
 import 'package:test/test.dart';
 
 void main() {
